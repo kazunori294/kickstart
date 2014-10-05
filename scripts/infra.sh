@@ -39,5 +39,8 @@ else
 NETWORKING=yes
 HOSTNAME=${AFHOST}
 EOF
+  
+   sleep 10s
+   service zabbix-agent restart
 
 fi
